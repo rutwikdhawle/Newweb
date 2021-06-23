@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: aquamarine;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sub-container{
+    background: rgb(187, 187, 187);
+    height: 390px;
+    width: 300px;
+    /* color: white; */
+    box-shadow: 1px 1px 4px black;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mainsection{
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+
+}
+.head1{
+    /* border: 1px solid; */
+    background: rgb(56, 76, 92);
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    /* border-top-left-radius: 20px; */
+    /* border-top-right-radius: 20px; */
+}
+.middle{
+    /* height: 280px; */
+    background:rgb(56, 158, 161);
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.same{
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: grey;
+    user-select: none;
+    pointer-events: none;
+    
+}
+input{
+    height: 20px;
+    padding: 2px;
+    width: 100%;
+}
+.user{
+    position: relative;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: cornflowerblue;
+}
+img{
+    border-radius: 20px;
+}
+.footer{
+    /* border: 1px solid; */
+    background: rgb(63, 65, 70);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    /* border-bottom-left-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    text-align: center;
+}
+li{
+    list-style: none;
+    color: beige;
+    /* border: 1px solid; */
+    padding: 5px;
+    margin: 2px 10px;
+}
+a{
+    color: rgb(155, 135, 135);
+    text-decoration: none;
+}
+.user input:focus ~.same, .user input:valid ~.same{
+    /* top: -7px; */
+    display: none;
+}
+.fa-youtube-play:hover,.fa-instagram:hover{
+    color: rgb(190, 2, 2);
+}
+.fa-github-square:hover{
+    color:black ;
+}
+.fa-facebook-official:hover{
+    color: rgb(3, 3, 114);
+}
+
